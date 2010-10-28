@@ -14,7 +14,14 @@ projects[tattler][download][url] = "git://github.com/ergonlogic/el_tattler.git"
 projects[] = admin
 projects[] = admin_menu
 projects[] = block_ie6
-projects[] = buzzmonitor
+
+
+; using CVS version of buzzmonitor, since it includes img_extractor
+projects[buzzmonitor][type] = "module"
+projects[buzzmonitor][download][type] = "cvs"
+projects[buzzmonitor][download][module] = "contributions/modules/buzzmonitor"
+projects[buzzmonitor][download][revision] = "DRUPAL-6--2"
+
 projects[] = cck
 projects[] = charts_graphs
 projects[] = custompage
@@ -35,6 +42,7 @@ projects[] = rdf
 projects[] = search_config
 projects[] = swfobject_api
 
+; N.B. This is *NOT* working, as it's putting the extracted files in a 'swfobject' sub-folder
 libraries[swfobject][download][type] = "file"
 libraries[swfobject][download][url] = "http://swfobject.googlecode.com/files/swfobject_2_2.zip"
 libraries[swfobject][destination] = "modules/swfobject_api"
