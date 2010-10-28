@@ -34,6 +34,11 @@ projects[] = plus1
 projects[] = rdf
 projects[] = search_config
 projects[] = swfobject_api
+
+libraries[swfobject][download][type] = "file"
+libraries[swfobject][download][url] = "http://swfobject.googlecode.com/files/swfobject_2_2.zip"
+libraries[swfobject][destination] = "modules/swfobject_api"
+
 projects[] = tagadelic
 projects[] = tattlerapp
 projects[] = tokenauth
