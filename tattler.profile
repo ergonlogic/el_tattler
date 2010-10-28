@@ -72,7 +72,7 @@ function tattler_profile_modules() {
     'calais_api', 'calais', 'calais_tagmods', 'calais_geo',
 	
     // Charts
-    'charts_graphs', 'charts_bluff', //'charts_openflash', 'amcharts', 
+    'charts_graphs', 'charts_graphs_bluff', //'charts_openflash', 'amcharts', 
     
     // Feed API
     'feedapi', 'feedapi_node', 'feedapi_inherit', 'feedapi_source', 'parser_common_syndication', 'feedapi_itemfilter',
