@@ -84,7 +84,7 @@ function tattler_profile_modules() {
     'views', 'views_export', 'views_ui', 'views_groupby', 'views_charts', 
 	
     // BuzzMonitor
-    'buzzmonitor', 'buzz_yahoo_terms', 'buzz_topics', 'img_extractor',
+    /*'buzzmonitor', 'buzz_yahoo_terms', 'buzz_topics',*/ 'img_extractor',
 
     // Tattler
     'tattlerui', 'tattler_trends',
@@ -123,7 +123,7 @@ function tattler_profile_tasks(&$task, $url) {
 
     drupal_set_title(t('Tattler Installation'));
     _tattler_base_settings();
-    _buzz_set_cck_types();
+    //_buzz_set_cck_types();
     _tattler_setup_flags();
     _tattler_initialize_settings();
     _tattler_setup_blocks();
