@@ -5,8 +5,6 @@ api = "2"
 includes[pressflow] = "http://github.com/ergonlogic/Makefiles/raw/master/el_pressflow.make"
 
 ; get profile from github
-; projects[pressflow][download][type] = "file"
-; projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.15.73/+download/pressflow-6.15.73.tar.gz"
 projects[tattler][type] = "profile"
 projects[tattler][download][type] = "git"
 projects[tattler][download][url] = "git://github.com/ergonlogic/el_tattler.git"
