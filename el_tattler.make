@@ -42,10 +42,10 @@ projects[] = rdf
 projects[] = search_config
 projects[] = swfobject_api
 
-; N.B. This is *NOT* working, as it's putting the extracted files in a 'swfobject' sub-folder
-libraries[swfobject][download][type] = "file"
+libraries[swfobject][download][type] = "get"
 libraries[swfobject][download][url] = "http://swfobject.googlecode.com/files/swfobject_2_2.zip"
 libraries[swfobject][destination] = "modules/swfobject_api"
+libraries[swfobject][directory_name] = "swfobject"
 
 projects[] = tagadelic
 projects[] = tattlerapp
