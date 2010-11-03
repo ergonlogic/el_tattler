@@ -55,7 +55,7 @@ function tattler_profile_modules() {
   
     //misc stand-alone, required by others
       //'advanced_help', 
-    'flag',/* 'swfobject_api',*/ 'rdf', 'tagadelic', 
+    'flag', 'swfobject_api', 'rdf', 'tagadelic', 
     'votingapi', 'plus1', 'tokenauth', 
       //'search', 'search_config',
     
